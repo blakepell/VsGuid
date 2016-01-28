@@ -6,7 +6,7 @@ VsGuid is a simple Visual Studio Extension (VSIX) that inserts a guid into the c
   - Visual Studio 2013
   - Visual Studio 2012
 
-# Notes
+## Notes
 
 This does not yet install with a hot key.  In order to map this command to a hot key you will want to 
 follow these steps and map it to a key of your choice.
