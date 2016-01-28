@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="830a0549-78e8-4074-8927-9217eaea4393" Version="1.1.4" Language="en-US" Publisher="Blake Pell" />
+    <Identity Id="830a0549-78e8-4074-8927-9217eaea4393" Version="1.1.5" Language="en-US" Publisher="Blake Pell" />
     <DisplayName>VsGuid</DisplayName>
     <Description>Inserts a new GUID into the code window.</Description>
     <License>License.txt</License>
     <Icon>guid.png</Icon>
   </Metadata>
   <Installation InstalledByMsi="false">
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,13.0]" />
-    <InstallationTarget Version="[11.0,13.0]" Id="Microsoft.VisualStudio.Premium" />
-    <InstallationTarget Version="[11.0,13.0]" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,15.0]" />
+    <InstallationTarget Version="[11.0,15.0]" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[11.0,15.0]" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5]" />
