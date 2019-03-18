@@ -12,8 +12,8 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Visual Studio Extension to insert a GUID into the code window.")> 
 <Assembly: AssemblyConfiguration("")> 
 <Assembly: AssemblyCompany("http://www.blakepell.com")> 
-<Assembly: AssemblyProduct("VsGuid")> 
-<Assembly: AssemblyCopyright("2015")> 
+<Assembly: AssemblyProduct("VsGuid")>
+<Assembly: AssemblyCopyright("2015-2019")>
 <Assembly: AssemblyTrademark("")> 
 <Assembly: AssemblyCulture("")> 
 <Assembly: ComVisible(False)> 
@@ -30,8 +30,8 @@ Imports System.Runtime.InteropServices
 ' You can specify all the values or you can default the Revision and Build Numbers 
 ' by using the '*' as shown below:
 
-<Assembly: AssemblyVersion("1.1.5.0")>
-<Assembly: AssemblyFileVersion("1.1.5.0")>
+<Assembly: AssemblyVersion("1.1.6.0")>
+<Assembly: AssemblyFileVersion("1.1.6.0")>
 
 
 
